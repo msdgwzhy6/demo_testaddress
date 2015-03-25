@@ -48,7 +48,7 @@
 
     NSString *name = [CallStack preSelName];
     NSLog(@"%@", name);
-    NSString *clazz = [CallStack preSelName];
+    NSString *clazz = [CallStack preClassName];
     NSLog(@"%@", clazz);
     
     SEL *preSel = &a + 1;
